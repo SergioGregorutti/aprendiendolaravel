@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => true,
+	'debug' => false,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/~sergiogregorutti/aprendiendolaravel',
+	'url' => 'http://aprendiendolaravel.heroku.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -120,8 +120,7 @@ return array(
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Way\Generators\GeneratorsServiceProvider'
+		'Illuminate\Workbench\WorkbenchServiceProvider'
 
 	),
 
