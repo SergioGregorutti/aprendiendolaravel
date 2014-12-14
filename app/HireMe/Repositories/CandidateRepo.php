@@ -2,13 +2,14 @@
 
 namespace HireMe\Repositories;
 
+use HireMe\Entities\Candidate;
 use HireMe\Entities\Category;
 
-class CategoryRepo extends BaseRepo {
+class CandidateRepo extends BaseRepo {
 
     public function getModel()
     {
-        return new Category;
+        return new Candidate;
     }
 
 }
